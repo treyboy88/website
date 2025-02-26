@@ -4,6 +4,8 @@ date: 2019-02-25T11:10:00+01:00
 draft: false
 weight: 3
 ---
+sudo bettercap -iface eth0 -eval "set wifi.interface wlan0; wifi.recon on"
+
 
 The WiFi modules use a WiFi interface supporting monitor mode and packet injection in order to:
 
